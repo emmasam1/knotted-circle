@@ -64,14 +64,14 @@
     {{-- Sliding Drawer Backdrop Shadow --}}
     <div 
         id="mobile-overlay" 
-        class="fixed inset-0 bg-black/40 z-40 opacity-0 pointer-events-none transition-opacity duration-500 ease-in-out"
+        class="fixed inset-0 z-20 bg-black/40 z-40 opacity-0 pointer-events-none transition-opacity duration-500 ease-in-out"
         onclick="toggleDrawer()"
     ></div>
     
     {{-- High-End Slide-out Drawer Panel --}}
     <div 
         id="mobile-drawer" 
-        class="fixed top-0 right-0 bottom-0 w-80 bg-[#F8F2E6] border-l border-[#E8DDC6] z-40 pt-28 px-8 pb-6 shadow-2xl translate-x-full transition-transform duration-500 ease-in-out flex flex-col justify-between"
+        class="fixed top-0 right-0 bottom-0 w-80 bg-[#F8F2E6] border-l border-[#E8DDC6] z-40! pt-28 px-8 pb-6 shadow-2xl translate-x-full transition-transform duration-500 ease-in-out flex flex-col justify-between"
         style="transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);"
     >
         <div>

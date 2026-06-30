@@ -56,7 +56,7 @@
             <span class="text-xs font-semibold tracking-widest text-[#D97A5A] uppercase bg-[#D97A5A]/10 px-3 py-1">
                 The Literary Collection
             </span>
-            <h1 class="text-4xl md:text-5xl font-serif font-bold text-[#5C1A1A] mt-4 tracking-wide">
+            <h1 class="text-6xl md:text-8xl text-[#4A1517] font-light leading-none tracking-wide mb-8" style="font-family: 'Cormorant Garamond', Georgia, serif;">
                 Curated Bookstore
             </h1>
             <div class="w-12 h-0.5 bg-[#E8DDC6] mx-auto my-4"></div>
@@ -88,7 +88,7 @@
 
                         <div class="mt-5">
                             <p class="text-[10px] font-bold tracking-widest text-[#8B6914]/80 uppercase">{{ $book['author'] }}</p>
-                            <h3 class="text-base font-serif font-bold text-[#5C1A1A] mt-1 line-clamp-1 group-hover:text-[#8B6914] transition-colors duration-200">
+                            <h3 class="text-base font-bold text-[#5C1A1A] mt-1 line-clamp-1 group-hover:text-[#8B6914] transition-colors duration-200" style="font-family: 'EB Garamond', serif;">
                                 {{ $book['title'] }}
                             </h3>
                             <p class="text-xs text-[#8B6914]/90 mt-2 line-clamp-2 leading-relaxed">

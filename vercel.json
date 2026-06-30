@@ -1,29 +1,18 @@
 {
     "version": 2,
     "framework": null,
+    "outputDirectory": "public",
     "functions": {
-        "api/index.php": {
-            "runtime": "vercel-php@0.9.0"
-        }
+        "api/index.php": { "runtime": "vercel-php@0.7.1" }
     },
     "routes": [
         {
             "src": "/build/(.*)",
-            "dest": "/public/build/$1"
-        },
-        {
-            "src": "/(css|js|images|favicon.ico|robots.txt)(.*)",
-            "dest": "/public/$1$2"
+            "dest": "/build/$1"
         },
         {
             "src": "/(.*)",
             "dest": "/api/index.php"
-        }
-    ],
-    "crons": [
-        {
-            "path": "/api/every-day",
-            "schedule": "0 0 * * *"
         }
     ]
 }
